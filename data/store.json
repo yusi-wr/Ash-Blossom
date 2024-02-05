@@ -13,13 +13,13 @@
   },
   "Energy-shield": {
     "price": 1350,
-    "amount": 1499,
+    "amount": 1496,
     "icon": "https://cdn.discordapp.com/emojis/1200296144589312070.png",
     "desc": "Energy Shield, use it to avoid the size of attackers, and to maintain your health"
   },
   "Bottle-scam": {
     "price": 2500,
-    "amount": 1500,
+    "amount": 1499,
     "icon": "https://cdn.discordapp.com/emojis/870898000891875368.png",
     "desc": "The thing in this bottle reduces your health points by 50"
   },
@@ -31,7 +31,7 @@
   },
   "Rescue-bottle": {
     "price": 5500,
-    "amount": 1500,
+    "amount": 1499,
     "icon": "https://cdn.discordapp.com/emojis/1020333728435818617.png",
     "desc": "Recover all your own or others' health points"
   },
@@ -49,7 +49,7 @@
   },
   "Energy-monster": {
     "price": 13700,
-    "amount": 999,
+    "amount": 998,
     "icon": "https://cdn.discordapp.com/emojis/739020328478572604.png",
     "desc": "Select a specific member that deals damage equal to 200 point"
   },
@@ -73,13 +73,13 @@
   },
   "Ash-Blossom-card": {
     "price": 15700,
-    "amount": 1499,
+    "amount": 1497,
     "icon": "https://cdn.discordapp.com/emojis/891582639411171399.png",
     "desc": "Get item Energy-shield by 4 and all warnings will be deleted from your profile and get 1000 DP + 100 LP"
   },
   "Ash-Bombe": {
     "price": 2750,
-    "amount": 1008,
+    "amount": 1004,
     "icon": "https://cdn.discordapp.com/emojis/1167930098733826088.png",
     "desc": "By activating this bomb, the target takes 60 LP damage"
   },

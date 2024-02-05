@@ -7,7 +7,7 @@ from colorama import Fore, Back, Style
 import config
 from functions.YGOCardsFunctions import  Update
 
-bot = commands.Bot(command_prefix = "+", intents=nextcord.Intents.all(), case_insensitive=True)
+bot = commands.Bot(command_prefix = "?", intents=nextcord.Intents.all(), case_insensitive=True, strip_after_prefix=True)
 
 
 #tasks for update card after 24H

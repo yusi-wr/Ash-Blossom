@@ -27,7 +27,7 @@ class cards:
 		self.card = None
 		self.masterdueldata = None
 		self.cards_url = None
-		self.name = gcm(name, TheListName, 98)[0]
+		self.name = gcm(name, TheListName, cutoff=0.1)[0]
 	
 	def Api(self):
 		api_url = "https://db.ygoprodeck.com/api/v7/cardinfo.php"

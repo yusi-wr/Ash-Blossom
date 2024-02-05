@@ -1,4 +1,27 @@
 {
-  "1129456838748942387": {},
-  "1188127051887169598": {}
+  "1129456838748942387": {
+    "Energy-shield": {
+      "icon": "https://cdn.discordapp.com/emojis/1200296144589312070.png",
+      "desc": "Energy Shield, use it to avoid the size of attackers, and to maintain your health",
+      "amount": 2
+    },
+    "Energy-monster": {
+      "icon": "https://cdn.discordapp.com/emojis/739020328478572604.png",
+      "desc": "Select a specific member that deals damage equal to 200 point",
+      "amount": 1
+    },
+    "Ash-Blossom-card": {
+      "icon": "https://cdn.discordapp.com/emojis/891582639411171399.png",
+      "desc": "Get item Energy-shield by 4 and all warnings will be deleted from your profile and get 1000 DP + 100 LP",
+      "amount": 2
+    },
+    "Ash-Bombe": {
+      "icon": "https://cdn.discordapp.com/emojis/1167930098733826088.png",
+      "desc": "By activating this bomb, the target takes 60 LP damage",
+      "amount": 2
+    }
+  },
+  "1000338345500618815": {},
+  "1037701642356805723": {},
+  "1169642527649964105": {}
 }

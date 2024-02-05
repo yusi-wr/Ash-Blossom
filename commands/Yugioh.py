@@ -26,7 +26,7 @@ class Yugioh(commands.Cog):
 		
 		if ("<" and ">") in message.content:
 			author = message.author
-			name = message.content.split("<>")
+			name = message.content.strip("<>")
 			
 			card = cards(name=name)
 			card.Api()

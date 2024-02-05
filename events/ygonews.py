@@ -4,7 +4,7 @@ import nextcord
 import json
 from colorama import Fore, Style
 from nextcord.ext import commands, tasks
-from config import ygo_news, anime_news
+from config import ygo_news
 from functions.Json_files import YGONews
 
 class NewsEvents(commands.Cog):

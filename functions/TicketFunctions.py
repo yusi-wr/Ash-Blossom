@@ -27,7 +27,8 @@ class SettingsTicketButton(nextcord.ui.View):
 			embed.description =f"**\nOnly {leader.mention} or {role.mention}\nand {user.mention} can close this ticket**"
 			embed.set_author(name=NAME, icon_url=IMAGE_LINK["icon"])
 			embed.set_thumbnail(url=IMAGE_LINK["!"])
-			return await interaction.response.send_message(content=f"**Sorry {author.mention}**", embed=embed, ephemeral=False)
+			await interaction.response.send_message(content=f"**Sorry {author.mention}**", embed=embed, ephemeral=False)
+			return
 		
 		await interaction.response.send_modal(AddUser(channel=interaction.channel))
 	
@@ -45,7 +46,8 @@ class SettingsTicketButton(nextcord.ui.View):
 			embed.description =f"**\nOnly {leader.mention} or {role.mention}\nand {user.mention} can close this ticket**"
 			embed.set_author(name=NAME, icon_url=IMAGE_LINK["icon"])
 			embed.set_thumbnail(url=IMAGE_LINK["!"])
-			return await interaction.response.send_message(content=f"**Sorry {author.mention}**", embed=embed, ephemeral=False)
+			await interaction.response.send_message(content=f"**Sorry {author.mention}**", embed=embed, ephemeral=False)
+			return 
 		
 		await interaction.response.send_modal(RemoveUser(channel=interaction.channel))
 	
@@ -265,8 +267,8 @@ class RemoveUser(nextcord.ui.Modal):
 			return
 		
 		overwrite = nextcord.PermissionOverwrite()
-		overwrite.view_channel = True
-		overwrite.read_messages = True
+		overwrite.view_channel = False
+		overwrite.read_messages = False
 		
 		await self.channel.set_permissions(user, overwrite=overwrite)
 		embed.description = f"**Remove {user.mention} From this ticket\nRemoved by: {interacton.user.mention}**"

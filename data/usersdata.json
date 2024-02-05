@@ -1,1 +1,50 @@
-{}
+{
+  "1129456838748942387": {
+    "DP": 3996,
+    "Warns": 0,
+    "Rep": 0,
+    "Lv": 4,
+    "LP": 100,
+    "XP": 540,
+    "Limit-LP": 100,
+    "Tournament": 0,
+    "Limit-Items": 5,
+    "Duels": 0
+  },
+  "1000338345500618815": {
+    "DP": 16576,
+    "Warns": 0,
+    "Rep": 0,
+    "Lv": 3,
+    "LP": 100,
+    "XP": 145,
+    "Limit-LP": 100,
+    "Tournament": 0,
+    "Limit-Items": 5,
+    "Duels": 0
+  },
+  "1037701642356805723": {
+    "DP": 18193,
+    "Warns": 0,
+    "Rep": 0,
+    "Lv": 4,
+    "LP": 100,
+    "XP": 325,
+    "Limit-LP": 100,
+    "Tournament": 0,
+    "Limit-Items": 5,
+    "Duels": 0
+  },
+  "1169642527649964105": {
+    "DP": 9980,
+    "Warns": 0,
+    "Rep": 0,
+    "Lv": 3,
+    "LP": 100,
+    "XP": 90,
+    "Limit-LP": 100,
+    "Tournament": 0,
+    "Limit-Items": 5,
+    "Duels": 0
+  }
+}
