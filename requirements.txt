@@ -1,0 +1,13 @@
+# requirements.txt
+
+nextcord
+requests
+python-dotenv
+colorama
+pillow
+humanfriendly
+giphy_client
+google-api-python-client
+anime-gen
+discord-feed-bot
+feedparser
