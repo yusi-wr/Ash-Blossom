@@ -32,9 +32,9 @@ class cards:
 	def Api(self):
 		api_url = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
 		
-		p = {"name":self.name,"misc":"yes"}
+		p = {"fname":self.name,"misc":"yes"}
 		self.card = requests.get(api_url, params=p).json()["data"][0]
-		
+			
 		self.masterdueldata = requests.get(f"https://www.masterduelmeta.com/api/v1/cards?name={quote(self.name)}").json()
 		
 		self.cards_url = self.card["ygoprodeck_url"]

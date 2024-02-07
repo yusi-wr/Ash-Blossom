@@ -57,6 +57,8 @@ class LevelSystem(commands.Cog):
 			channel = self.bot.get_channel(channel_level)
 			author = message.author
 			
+			if guild != guildID:
+				return
 			await AddXP(user=author, guild=guild, xp=5)
 			await LevelUp(user=author, message=message, channel=channel)				
 		

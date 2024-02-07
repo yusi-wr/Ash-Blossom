@@ -24,7 +24,7 @@ class Yugioh(commands.Cog):
 		if message.author.bot:
 			return
 		
-		if ("<" and ">") in message.content:
+		if message.content.startswith("<") and message.content.endswith(">") and ("@" or "?" or "!" or "#") not in message.content and not message.content.startswith("<:"):
 			author = message.author
 			name = message.content.strip("<>")
 			
