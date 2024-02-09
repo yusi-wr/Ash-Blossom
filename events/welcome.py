@@ -21,6 +21,8 @@ class Welcome(commands.Cog):
 	#event welcome user join
 	@commands.Cog.listener()
 	async def on_member_join(self, member):
+		if member.bot:
+			return
 		usersdata = await userdata()
 		guild = member.guild
 		 

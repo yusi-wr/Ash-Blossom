@@ -23,8 +23,11 @@ class Yugioh(commands.Cog):
 	async def on_message(self, message: Message):
 		if message.author.bot:
 			return
-		
-		if message.content.startswith("<") and message.content.endswith(">") and ("@" or "?" or "!" or "#") not in message.content and not message.content.startswith("<:"):
+		blacklist = ["<a:", "<:", "<#", "<@", "<!", "<?", "<&", "<$"]
+		if message.content.startswith("<") and message.content.endswith(">"):
+			for black in blacklist:
+				if message.content.startswith(black):
+					return
 			author = message.author
 			name = message.content.strip("<>")
 			
