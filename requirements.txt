@@ -8,6 +8,4 @@ pillow
 humanfriendly
 giphy_client
 google-api-python-client
-anime-gen
-discord-feed-bot
 feedparser
