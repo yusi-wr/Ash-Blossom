@@ -3,17 +3,6 @@
 
 **A small project for a friend. Thanks to those who helped develop it. The project cannot be used on multiple servers simultaneously The project was built to be used on one Discord server only. Thanks.**
 
-- **commands cog**
-```
-Admin
-Fun
-AnimeFun
-General
-Slashcommand
-Yugioh
-DeckStore
-```
-
 - **install Librarys**
 ```
 pip install -r requirements.txt
